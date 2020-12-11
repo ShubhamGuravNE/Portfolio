@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Admin Pannel</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" type="text/css" href="../CSS/Admin.css">
+
+	<!-- Online Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<!--    fontawesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg">
+		<button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" 	data-target="#navi">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navi">
+  			<div class="container-fluid">
+  				<div class="row">
+
+  					<!-- Sidebar -->
+  					<div class="col-lg-2 col-md-3 sidebar fixed-top">
+          				<a href="#" class="navbar-brand mx-auto d-block text-center p-3 pb-4 display-5">CodeAndCreat</a>
+          				<div class="border-bottom border-top py-3">
+          					<img src="../images/admin.jpeg" width="60" class="rounded-circle mr-2">
+          					<a href="#" class="text-danger"><b>Hella From Hell</b></a>
+          				</div>
+          				<ul class="navbar-nav flex-column mt-4">
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-user text-light fa-lg mr-3"></i>Profile</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-envelope text-light fa-lg mr-3"></i>Inbox</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-shopping-cart text-light fa-lg mr-3"></i>Sales</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-chart-line text-light fa-lg mr-3"></i>Analytics</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-chart-bar text-light fa-lg mr-3"></i>Charts</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-table text-light fa-lg mr-3"></i>Tables</a></li>
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-wrench text-light fa-lg mr-3"></i>Settings</a></li>!
+          					<li class="nav-item"><a href="#" class="nlink text-light p-3 mb-2 nav-link"><i class="fas fa-file-alt text-light fa-lg mr-3"></i>Documentation</a></li>
+          				</ul>
+          			</div>
+          			<!-- Sidebar end -->
+
+          			<!-- Topbar -->
+          			<div class="col-lg-10 col-md-9 ml-auto fixed-top py-3 bg-dark top">
+          				<div class="row ">
+          					<div class="col-sm-3 col-md-3">
+          						<h4 class="text-light text-uppercase ml-4">Dashboard</h4>
+          					</div>
+          					<div class="col-md-5 col-sm-5 mr-auto mr-2">
+          						<div class="form">
+          							<div class="input-group">
+          								<input type="text" name="search" class="search-box form-control border-0" placeholder="Search Here...">
+          								<button type="button" class="btn bg-info search-button input-group-append border-0"><i class="fa fa-search" aria-hidden="true"></i></button>
+          							</div>
+          						</div>
+          					</div>
+          					<div class="col-md-2 col-sm-2 mx-auto items-center">
+          						<ul class="navbar-nav">
+                    				<li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="fas fa-comments text-muted fa-lg"></i></a></li>
+                    				<li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="fas fa-bell text-muted fa-lg"></i></a></li>
+                				</ul>
+          					</div>
+          					<div class="col-md-2 col-sm-2 mr-auto mr-1 items-center">
+          						<button class="btn btn-logout btn-lg text-danger bg-light border-info border-2" type="submit" data-toggle="modal" data-target="#sign-out">
+          							Logout<i class="fas fa-sign-out-alt text-danger fa-lg ml-2"></i>
+          						</button>
+          					</div>
+
+          				</div>
+          			</div>
+          			<!-- Topbar end -->
+
+          		</div>
+          	</div>
+        </div>
+
+	</nav>
+	<!-- Navbar End -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="sign-out">
+		<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLongTitle">Want To Logout?</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        			Click On Logout To Leave
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-success" data-dismiss="modal">Stay Here</button>
+        			<button type="button" class="btn btn-danger" data-dismiss="modal">Logout</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	<!-- Modal end -->
+
+	<!-- Cards -->
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-10 col-md-9 ml-auto">
+
+					<div class="row pt-md-5 mt-md-5 mb-5">
+
+						<div class="col-lg-3 col-sm-6 p-2">
+							<div class="card card-common">
+								<div class="">
+									<div class="d-flex justify-content-between">
+										<i class="fas fa-shopping-cart fa-3x text-warning"></i>
+										<div class="text-secondary text-right">
+											<h5>Sale</h5>
+											<h3>$135,000</h3>
+										</div>
+									</div>
+									<div class="card-footer text-secondary">
+										<i class="fas fa-sync mr-3"></i>
+										<span>Update Now</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+
+
+</body>
+</html>

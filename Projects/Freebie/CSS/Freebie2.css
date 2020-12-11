@@ -1,0 +1,102 @@
+body{
+  margin: 0 auto;
+  padding: 0;
+  width: 1600px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#section1{
+  background: url(../Images/top-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fdfdfe;
+}
+.edditors-choice{
+  background: url(../Images/gray-top-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.hero-text {
+  font-size: 60px;
+  /* letter-spacing: 1px; */
+  line-height: 70px;
+}
+.sponser-text{
+  font-size: 16px;
+  line-height: 28px;
+}
+.feature-head{
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
+}
+.small-text{
+  font-size: 14px;
+  line-height: 22px;
+}
+.sub-point{
+  font-size: 20px;
+  line-height: 52px;
+}
+.smart-jackpot-head{
+  font-size: 40px;
+  line-height: 50px;
+}
+.brand-name{
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: bold;
+}
+.text-red{
+  color: #f55767;
+}
+.text-blue{
+  color: #2563ff;
+}
+.text-green{
+  color: #40975f;
+}
+.text-blue{
+  color: #2500f9 !important;
+}
+
+.price-table{
+  box-shadow: 0px 20px 60px -45px #6c757d;
+}
+
+/* --===Section9===-- */
+.accordion {
+  background-color: #f5f7fa;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  transition: 0.4s;
+  border: none;
+}
+.accordion:hover {
+  background-color: #eee;
+}
+.panel {
+  padding: 0 18px;
+  background-color: #f5f7fa;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.act:after {
+  content: "\2796";
+}
+/* --===Section9 End===-- */
