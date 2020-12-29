@@ -41,9 +41,9 @@ body{
 
   background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../Images/Residences-Artist-View.png);
   /*width: 120%;*/
-  height: 130%;
+  height: 150%;
 /*background-image: url(http://davidwalsh.name/demo/bg-clouds.png);*/
-  background-position: center;
+  background-position: center bottom;
   background-size:cover;
   animation: animatedBackground 10s linear infinite alternate-reverse;
   -moz-animation: animatedBackground 10s linear infinite alternate-reverse;
