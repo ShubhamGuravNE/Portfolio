@@ -114,6 +114,18 @@ $(document).ready(function() {
   });
 
   // =========== Owl Carousel ===========
+  // var viewportWidth = $(window).width();
+  //   if (viewportWidth > 720) {
+  //           $(".owl-carousel").removeClass("owl-one");
+  //   }
+    
+  //   $(window).resize(function () {
+    
+  //       if (viewportWidth > 720) {
+  //           $(".owl-carousel").removeClass("owl-one");
+  //       }
+  //   });
+
   $('.owl-carousel').owlCarousel({
       loop:true,
       margin:10,
@@ -140,10 +152,10 @@ $(document).ready(function() {
 
       }
 
-  })
-
-
-
+  });
 
 
 });
+
+
+

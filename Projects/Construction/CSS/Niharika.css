@@ -2,9 +2,6 @@ body{
 	margin: 0 auto;
 	padding: 0;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 /*---===Head-section===---*/
 .logoimg{
@@ -18,11 +15,12 @@ html {
 
 /*---===Section1===---*/
 
-.hero-text{
+.hero-text-box{
+  margin: 0;
   position: absolute;
-  margin-top: 140px;
-  margin-left: 12%;
-  margin-right: 12%;
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 
   /*background: -webkit-linear-gradient(90deg, rgba(222,117,169,1) 30%, rgba(222,117,117,1) 50%, rgba(255,0,117,1) 70%);
   -webkit-background-clip: text;
@@ -34,10 +32,29 @@ html {
 }
 .hero-text-border{
   border: 2px solid #f8f9fd;
-  padding: 80px;
+  padding: 40px;
 }
 
 /*------ Hero Img ------*/
+
+#animate-area {
+
+  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../Images/Residences-Artist-View.png);
+  /*width: 120%;*/
+  height: 130%;
+/*background-image: url(http://davidwalsh.name/demo/bg-clouds.png);*/
+  background-position: center;
+  background-size:cover;
+  animation: animatedBackground 10s linear infinite alternate-reverse;
+  -moz-animation: animatedBackground 10s linear infinite alternate-reverse;
+  -webkit-animation: animatedBackground 10s linear infinite alternate-reverse;
+  -ms-animation: animatedBackground 10s linear infinite alternate-reverse;
+  -o-animation: animatedBackground 10s linear infinite alternate-reverse;
+}
+.overflow-x{
+  height: 100vh;
+  overflow: hidden;
+}
 
 @keyframes animatedBackground {
   0% { background-position: 0 0; }
@@ -60,26 +77,10 @@ html {
   100% { background-position: -300px 0; }
 }
 
-#animate-area {
-
-  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../Images/Residences-Artist-View.png);
-  width: 120%;
-  height: 130%;
-/*background-image: url(http://davidwalsh.name/demo/bg-clouds.png);*/
-  background-position: center;
-  background-size:cover;
-  animation: animatedBackground 10s linear infinite alternate-reverse;
-  -moz-animation: animatedBackground 10s linear infinite alternate-reverse;
-  -webkit-animation: animatedBackground 10s linear infinite alternate-reverse;
-  -ms-animation: animatedBackground 10s linear infinite alternate-reverse;
-  -o-animation: animatedBackground 10s linear infinite alternate-reverse;
-}
-.overflow-x{
-  height: 800px;
-  overflow: hidden;
-}
-
 /*------ Hero Img End ------*/
+
+
+
 /*----====Section1 End====----*/
 
 
@@ -630,7 +631,7 @@ footer{
 
 /* --==Text Size==-- */
 .hero-font-size{
-  font-size:60px !important;    
+  font-size:60px;    
   line-height: 120px;
  }
  .main-heading{
@@ -779,8 +780,9 @@ footer{
 
 
 
-/*Mobile view (if less than)768px*/
-@media only screen and (max-width: 426px)
+
+/*Mobile view (if less than)480px*/
+@media (max-width: 480px)
 {
   .sl{
   height: 400px;
@@ -788,9 +790,56 @@ footer{
 
   .logo{
     width: 30%;
+  } 
+  .hero-text-box{
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  -ms-transform: translateY(10%);
+  transform: translateY(10%);
+  }
+  .hero-font-size{
+  font-size: 40px;    
+  line-height: 60px;
+  padding-bottom: 8px;
+ }
+
+ #section2 .main-heading{
+    font-size: 40px !important; 
+    line-height:50px;
   }
 
-  
+  #section2 .h3{
+    font-size: 24px !important; 
+  }
+
+
+  #section5 .text-large1{
+    font-size: 12px !important;    
+    line-height: 20px; 
+  }
+
+}
+
+
+/*Tablet view (if less than)760px*/
+@media (min-width: 481px) and (max-width: 760px)
+{
+
+  .hero-text-box{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+  }
+  .hero-font-size{
+  font-size: 46px;    
+  line-height: 60px;
+  padding-bottom: 8px;
+ }
+
+
 }
 
 

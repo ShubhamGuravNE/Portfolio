@@ -6,7 +6,7 @@ body{
 
 /*Header section*/
 .header-height {
-  height: 800px;
+  max-height: 100vh;
 }
 /*header section end*/
 
