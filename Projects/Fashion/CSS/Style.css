@@ -256,8 +256,34 @@ form input{
 
 }*/
 
+@media (min-width: 1081px) and (max-width: 1320px)
+{
 
-@media (min-width: 881px) and (max-width: 1024px)
+  .h-img-bg-1{
+  background-size: 236px;
+  padding-bottom: 130px;
+ }
+ .h-img-1{
+  padding-top: 0px;
+ }
+ .h-img-bg-2{
+  background-size: 320px;
+ }
+ .h-img-2{
+  padding-top: 130px;
+ }
+ .h-img-bg-3{
+  background-size: 240px;
+  padding-bottom: 130px;
+ }
+ .h-img-3{
+  padding-top: 0px;
+ }  
+
+}
+
+
+@media (min-width: 841px) and (max-width: 1080px)
 {
 
  .h-img-bg-1{
