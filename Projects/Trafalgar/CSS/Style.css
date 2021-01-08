@@ -2,7 +2,7 @@
 	padding: 0px;
 	margin: 0px auto;
 }
-.page{
+body{
 	width: 1600px;
 }
 
@@ -341,7 +341,6 @@ header{
     margin: 0;
     list-style: none;
     text-align: center;
-    color: ;
 }
 /*.slick-dots li {
     position: relative;
@@ -469,8 +468,12 @@ header{
 /*--Footer--*/
 footer{
 	background: linear-gradient(180deg, #67C3F3, #5A98F2);
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 	margin-top: 200px;
+	overflow: hidden;
+}
+.footer-about{
+	overflow: hidden;
 }
 .footer-margin{
 	margin-top: 118px;
