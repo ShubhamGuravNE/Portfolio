@@ -1,12 +1,10 @@
-body{
-	background: #eee;
+body {
+  background: #eee;
 }
 
 .top {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(../images/header-img.jpeg) no-repeat center center /cover;
-
-
 }
 
 .navbar-menu {
@@ -25,9 +23,11 @@ body{
 .menu-item:hover {
   color: #70aed2;
 }
-.ht{
-	padding-top: 14%;
+
+.ht {
+  padding-top: 14%;
 }
+
 .nav-active {
   color: #70aed2;
 }
@@ -38,8 +38,7 @@ body{
   margin: auto;
 }
 
-.title
-{
+.title {
   position: absolute;
   top: 70%;
   right: 0;
@@ -49,13 +48,16 @@ body{
   opacity: .7;
   transition: all .5s;
 }
+
 .title:hover {
   opacity: 1;
 }
+
 .pics {
   color: #777;
   cursor: pointer;
 }
+
 .active-item {
   color: #70aed2;
 }
@@ -71,11 +73,13 @@ body{
   box-shadow: 2px 10px 35px #555;
   max-width: 370px;
 }
+
 .card-list-item {
   border-bottom: 1px groove #eee;
   width: 55%;
   margin: auto;
 }
+
 .price-card-button {
   background: #f5593d;
   width: 130px;
@@ -93,6 +97,7 @@ body{
   background: #f9793d;
   transform: translateY(-2px) translateX(2px);
 }
+
 .inp:focus {
   transition: .5s;
   transform: translateY(-3px) translateX(3px);

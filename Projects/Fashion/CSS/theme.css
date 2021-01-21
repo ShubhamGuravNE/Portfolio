@@ -1,145 +1,164 @@
-
 /* ----======*****=====List=====*****======---- */
-
-.btn1{
+.btn1 {
   font-size: 17px !important;
   font-weight: 500 !important;
   line-height: 21px !important;
   color: #787878 !important;
   background: #eaeaea !important
 }
-.btn1:hover{
+
+.btn1:hover {
   background: #f84258 !important;
   color: #f8f9fa !important;
 }
 
 /* ==========**Text Effect**========== */
-
-.website-service-text{
+.website-service-text {
   font-size: 17px;
   line-height: 24px;
   font-weight: 500;
 }
-.card-title-1{
+
+.card-title-1 {
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
   color: #727272;
 }
-.card-sub-title{
+
+.card-sub-title {
   text-transform: uppercase;
   font-size: 17px;
   line-height: 20px;
   font-weight: 400;
   color: #939393;
 }
-.shopping-card-price{
+
+.shopping-card-price {
   font-size: 15px;
   line-height: 19px;
   font-weight: 350;
   color: #787878;
 }
-.text-style-3{
+
+.text-style-3 {
   text-transform: uppercase;
   font-size: 70px;
   font-weight: 700;
   line-height: 1;
   color: #000000;
 }
-.text-style-2{
+
+.text-style-2 {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 400;
   line-height: 1;
   color: #ffffff;
 }
-.text-style-1{
+
+.text-style-1 {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 1000;
   line-height: 1;
   color: #808080;
 }
-.text-style-4{
+
+.text-style-4 {
   text-transform: uppercase;
   font-size: 60px;
   font-weight: 700;
   line-height: 1;
   color: #ffffff;
 }
-.text-style-5{
+
+.text-style-5 {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;
   color: #080808;
 }
-.text-style-6{
+
+.text-style-6 {
   /* text-transform: uppercase; */
   font-size: 35px;
   font-weight: 700;
   line-height: 1;
   color: #6c757d;
 }
-.text-style-7{
+
+.text-style-7 {
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 400;
   line-height: 1;
   color: #ffffff;
 }
-.text-style-8{
+
+.text-style-8 {
   text-transform: uppercase;
   font-size: 17px;
   font-weight: 500;
   line-height: 1;
 }
-.text-style-9{
+
+.text-style-9 {
   font-size: 17px;
   font-weight: 500;
   line-height: 1;
 }
 
 /* ==========**Text Effect**========== */
-.color1{
+.color1 {
   color: #ffd557;
 }
-.color2{
+
+.color2 {
   color: #ff2b58;
 }
-.color3{
+
+.color3 {
   color: #ffc107;
 }
-.color4{
-  color: #ff7c98; #f84258;
+
+.color4 {
+  color: #ff7c98;
+  #f84258;
 }
-.color5{
+
+.color5 {
   color: #787878;
 }
-.color6{
+
+.color6 {
   color: #939393;
 }
 
-
 /* ==========**Background Color**========== */
-.bg-color1{
+.bg-color1 {
   opacity: .9;
   background: #ffc107 !important;
   position: relative;
 }
-.bg-color2{
+
+.bg-color2 {
   background: #eaeaea !important;
   position: relative;
 }
-.bg-color3{
-  background: #f84258 !important;#ff7c98
-  position: relative;
+
+.bg-color3 {
+  background: #f84258 !important;
+  #ff7c98 position: relative;
 }
-.bg-color4{
+
+.bg-color4 {
   background: #fbfbfb;
   position: relative;
 }
-.bg-color5{
+
+.bg-color5 {
   background: #222;
   position: relative;
 }

@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -118,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     left: -300px;
   }
+
   #main {
     margin-left: 0;
   }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -158,12 +158,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i, .nav-menu .active>a i, .nav-menu li:hover>a i {
   color: #149ddd;
 }
 
@@ -199,8 +199,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -210,7 +208,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/hero_img.png") no-repeat center center;
   background-blend-mode: luminosity;
   background-size: cover;
-
 }
 
 #hero:before {
@@ -280,11 +277,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
+
   #hero div {
     color: #fff;
     /* margin-bottom: 40px; */
@@ -294,8 +293,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -336,8 +333,6 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
-
 
 /*--------------------------------------------------------------
 # About
@@ -380,12 +375,9 @@ section {
   font-weight: 600;
 }
 
-
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-
 .skills .progress {
   height: 50px;
   display: block;
@@ -419,8 +411,6 @@ section {
   background-color: #149ddd;
 }
 
-
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -428,6 +418,7 @@ section {
   margin-bottom: 30px;
   cursor: pointer;
 }
+
 .portfolio .portfolio-img {
   width: 350px;
   height: 250px;
@@ -512,7 +503,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
 }
 
@@ -528,8 +519,6 @@ section {
   opacity: 1;
   bottom: 0;
 }
-
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -635,7 +624,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -699,6 +688,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -708,12 +698,11 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Footer

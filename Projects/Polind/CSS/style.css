@@ -1,0 +1,80 @@
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 80%;
+}
+
+.orange {
+  color: #ed6950;
+}
+
+.bg1 {
+  background: url(../Images/top.png) !important;
+  background-size: cover !important;
+}
+
+.user-define {
+  display: block;
+}
+
+.bg2 {
+  background: url(../Images/bg2.png) !important;
+  background-size: cover !important;
+}
+
+.colr {
+  color: #606f81;
+}
+
+.ylw {
+  color: #f8c759;
+}
+
+.gry {
+  color: #bdc8d9;
+}
+
+.ct {
+  margin-left: 30%;
+}
+
+.cb1 {
+  background: url(../Images/top1.png) cover;
+}
+
+.cb2 {
+  background: url(../Images/top2.png) cover;
+}
+
+.sb {
+  width: 40%;
+}
+
+.si {
+  width: 90% !important;
+}
+
+.sbt {
+  width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sb {
+    width: 90%;
+  }
+
+  .si {
+    width: 70% !important;
+    /*padding: 2% !important;*/
+  }
+
+  .sbt {
+    width: 20%;
+    padding: 6px !important;
+  }
+}

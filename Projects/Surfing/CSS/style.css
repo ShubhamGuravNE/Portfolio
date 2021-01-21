@@ -1,0 +1,458 @@
+* {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.pg {
+  background: white;
+  display: block;
+  /*width: 90%;*/
+}
+
+.container {
+  width: 90% !important;
+  margin: 0px auto;
+}
+
+.surfnav {
+  padding: 8%;
+}
+
+.topnav {
+  padding: 8%;
+}
+
+.navbar {
+  color: lightskyblue;
+  font-size: 10pt;
+  font-family: Myriad Pro;
+  font-weight: bolder;
+  display: block;
+  padding: 2%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hero-img {
+  background: url(../Images/Surfingtop.png) no-repeat;
+  padding: 8%;
+  background-size: cover;
+}
+
+.head {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  /*color: deeppink;*/
+  color: #ce60a8;
+  /*color: lightcoral;*/
+}
+
+.text {
+  font-family: Myriad Pro;
+  color: darkslateblue;
+  font-size: 17px;
+  padding: 6%;
+}
+
+.quote {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.said {
+  font-family: 'Gelasio', serif;
+  font-size: 1.6rem;
+  color: lightskyblue;
+  text-align: center;
+  padding: 2%;
+}
+
+.by {
+  font-family: 'Pacifico', cursive;
+  font-size: 0.8rem;
+  color: darkslateblue;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.rockimg {
+  /*background: url(../Images/rock.png) no-repeat top;*/
+  /*padding: 32%;*/
+  /*background-size: contain;*/
+  width: 40%;
+  height: 200px;
+}
+
+.seven, .seven1 {
+  width: 100%;
+}
+
+.seven {
+  margin: 0% 0% 10% 20%;
+}
+
+.five {
+  display: inline-block;
+  width: 45%;
+  margin: 20% 0% 0% 0%;
+  vertical-align: top;
+}
+
+.six {
+  /*width: 100%;*/
+}
+
+.two {
+  display: inline-block;
+  width: 35%;
+}
+
+.para {
+  padding-top: 4%;
+}
+
+.remo {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+}
+
+.remo a {
+  font-family: 'Gelasio', serif;
+  font-size: 10pt;
+  color: lightskyblue;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: darkturquoise;
+  text-decoration-line: underline;
+}
+
+.section-4 {
+  background: url(../Images/Opacity.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.shop {
+  font-family: 'Gelasio', serif;
+  text-transform: uppercase;
+  font-size: 12pt;
+  line-height: 16px;
+  letter-spacing: 4pt;
+  color: darkslateblue;
+}
+
+.surfboards {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22pt;
+  color: darkturquoise;
+}
+
+.img1 {
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.coloum {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding-top: 80%;
+}
+
+.r1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
+  color: darkslateblue;
+  padding-top: 2%;
+}
+
+.r2 {
+  font-weight: bolder;
+  color: #0b0c11;
+  font-size: 16pt;
+  font-family: 'Gelasio', serif;
+  padding-top: 2%;
+}
+
+.r3 {
+  font-weight: bolder;
+  color: #ce60a8;
+  font-size: 14pt;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 2%;
+}
+
+.r4 {
+  color: darkslateblue;
+  font-size: 12pt;
+  font-family: 'Gelasio', serif;
+  padding-top: 2%;
+}
+
+.wave {
+  padding-bottom: 0%;
+  padding-top: 4%;
+}
+
+.waveimg {
+  vertical-align: top;
+  width: 96%;
+}
+
+.wavetext {
+  align-self: center;
+}
+
+.wavehead {
+  font-family: 'Gelasio', serif;
+  font-weight: bolder;
+  font-size: 24pt;
+  color: lightseagreen;
+  text-align: center;
+  padding: 2%;
+}
+
+.wavepara {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12pt;
+  color: #a9a9a9;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.wavepara2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12pt;
+  color: darkslateblue;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.joinclube {
+  padding: 20%;
+  background: url(../Images/surfingbackground-new.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.joinhead {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  /*color: deeppink;*/
+  /*color: lightcoral;*/
+  color: #ce60a8;
+  text-align: center;
+  padding: 2%;
+}
+
+.emaildiv {
+  padding: 4%;
+  display: inline-block;
+}
+
+.input-group {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.email {
+  display: table-cell;
+  border: none;
+  padding: 12px 6px;
+}
+
+.email::placeholder {
+  background: #fff;
+  color: steelblue;
+  font-weight: bold;
+  text-align: left;
+  padding: 8%;
+}
+
+/*.email input:focus{
+	color: white;
+}*/
+.submit {
+  background: #5da8ef;
+  border: none;
+  /*border-radius: 50%;*/
+  color: white;
+  padding: 12px;
+}
+
+.lasthead {
+  font-family: 'Gelasio', serif;
+  font-weight: bolder;
+  font-size: 17pt;
+  color: darkturquoise;
+  text-align: center;
+  padding: 2%;
+}
+
+footer {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+/*Dekstop view (if more than)768px*/
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .container {
+    width: 75%;
+    margin: 0px auto;
+  }
+
+  .surfnav {
+    padding: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: left;
+  }
+
+  .topsurf {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+  }
+
+  .topnav {
+    width: 60%;
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .navbar {
+    display: inline-block;
+    width: 14%;
+    padding: 0px;
+  }
+
+  .hero-img {
+    margin-left: 22%;
+    padding: 17%;
+    box-shadow: -20px 20px 30px #dedede;
+  }
+
+  .top {
+    text-align: left;
+    margin: 0% 0% 0% -72%;
+    width: 80%;
+  }
+
+  .head {
+    text-align: left;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .quote {
+    text-align: center;
+    width: 60%;
+  }
+
+  .rocktext {
+    display: inline-block;
+    width: 40%;
+    padding: 20%;
+  }
+
+  .surfvideo {
+    display: inline-block;
+    width: 40%;
+    padding: 20%;
+  }
+
+  .coloum {
+    display: inline-block;
+    width: 32%;
+    padding-top: 80%;
+  }
+
+  .img1 {
+    width: 50%;
+  }
+
+  .seven {
+    width: 100%;
+    margin: 0% 0% 10% 16%;
+  }
+
+  .two {
+    margin: 0% 0% 10% 20%;
+  }
+
+  .five {
+    display: inline-block;
+    width: 47%;
+    margin: 4% 0% 0% 0%;
+  }
+
+  .six {
+    width: 60%;
+    text-align: center;
+  }
+
+  .two {
+    display: inline-block;
+    width: 32%;
+    margin: 0% 0% 0% 0%;
+  }
+
+  .para {
+    text-align: left;
+  }
+
+  .join-clube-width {
+    width: 80%;
+  }
+
+  .input-group {
+    width: 80%;
+  }
+
+  .email {
+    width: 80%;
+  }
+
+  .surf {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  }
+
+  .wavetext {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    padding: 60px;
+  }
+
+  .waveimg {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+  }
+
+  .wavetext .wavehead, .wavetext .wavepara, .remo, .lasthead {
+    text-align: left;
+  }
+
+  .section-4 .remo {
+    text-align: center;
+  }
+}

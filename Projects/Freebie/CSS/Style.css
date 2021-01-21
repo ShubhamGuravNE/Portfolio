@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0 auto;
   padding: 0;
   width: 1600px;
@@ -6,64 +6,76 @@ body{
   overflow-x: hidden;
 }
 
-#section1{
+#section1 {
   background: url(../Images/top-bg-min.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fdfdfe;
 }
-.edditors-choice{
+
+.edditors-choice {
   background: url(../Images/gray-top-bg.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
 }
+
 .hero-text {
   font-size: 60px;
   /* letter-spacing: 1px; */
   line-height: 70px;
 }
-.sponser-text{
+
+.sponser-text {
   font-size: 16px;
   line-height: 28px;
 }
-.feature-head{
+
+.feature-head {
   font-size: 36px;
   line-height: 46px;
   font-weight: bold;
 }
-.small-text{
+
+.small-text {
   font-size: 14px;
   line-height: 22px;
 }
-.sub-point{
+
+.sub-point {
   font-size: 20px;
   line-height: 52px;
 }
-.smart-jackpot-head{
+
+.smart-jackpot-head {
   font-size: 40px;
   line-height: 50px;
 }
-.brand-name{
+
+.brand-name {
   font-size: 30px;
   line-height: 44px;
   font-weight: bold;
 }
-.text-red{
+
+.text-red {
   color: #f55767;
 }
-.text-blue{
+
+.text-blue {
   color: #2563ff;
 }
-.text-green{
+
+.text-green {
   color: #40975f;
 }
-.text-blue{
+
+.text-blue {
   color: #2500f9 !important;
 }
 
-.price-table{
+.price-table {
   box-shadow: 0px 20px 60px -45px #6c757d;
 }
 
@@ -79,9 +91,11 @@ body{
   transition: 0.4s;
   border: none;
 }
+
 .accordion:hover {
   background-color: #eee;
 }
+
 .panel {
   padding: 0 18px;
   background-color: #f5f7fa;
@@ -89,6 +103,7 @@ body{
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
 .accordion:after {
   content: '\02795';
   font-size: 13px;
@@ -96,7 +111,9 @@ body{
   float: right;
   margin-left: 5px;
 }
+
 .act:after {
   content: "\2796";
 }
+
 /* --===Section9 End===-- */
