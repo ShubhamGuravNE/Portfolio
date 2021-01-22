@@ -80,14 +80,19 @@ body {
   border-radius: 50%;
 }
 
+/*Mobile View with less than 768px*/
 @media (max-width: 768px) {
   .sidebar {
-    position: static;
+    position: static !important;
     height: auto;
   }
 
   .top-navbar {
-    position: static;
+    position: static !important;
+  }
+
+  .badge{
+    font-size: 38% !important;
   }
 }
 
@@ -110,5 +115,5 @@ body {
 }
 
 /* end of task list */
-/*Mobile View with less than 768px*/
+
 @media (max-width: 768px) {}

@@ -16,16 +16,22 @@ body {
 .menu-item {
   font-size: 13px;
   letter-spacing: 1px;
-  color: #eee;
+  color: #fff !important;
   transition: color .5s;
 }
 
 .menu-item:hover {
-  color: #70aed2;
+  color: #70aed2 !important;
+}
+
+.navbar-menu .show {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  padding: 30px;
+  transition: all 2s;
 }
 
 .ht {
-  padding-top: 14%;
+  padding-top: 22%;
 }
 
 .nav-active {

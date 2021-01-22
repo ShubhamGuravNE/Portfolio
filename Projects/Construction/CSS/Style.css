@@ -886,6 +886,10 @@ footer {
     font-size: 12px !important;
     line-height: 20px;
   }
+  .text-large2 {
+  font-size: 12px !important;
+  line-height: 18px;
+  }
 }
 
 /*Tablet view (if less than)760px*/
@@ -902,5 +906,9 @@ footer {
     font-size: 46px;
     line-height: 60px;
     padding-bottom: 8px;
+  }
+  .text-large2 {
+  font-size: 16px !important;
+  line-height: 24px;
   }
 }

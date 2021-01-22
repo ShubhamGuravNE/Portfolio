@@ -27,37 +27,35 @@
 
 <body>
 
-	<header class="top">
-		<div class="navbar navbar-expand-lg fixed-top navbar-menu">
+	<header id="Home" class="top">
+		<div class="navbar navbar-expand-lg navbar-dark fixed-top navbar-menu">
 			<a href="#" class="navbar-brand text-danger text-uppercase"><span class="h2 font-weight-bold">photo</span><span class="h1">X</span></a>
 
-			<button class="navbar-toggler nav-button bg-light" type="button" data-toggle="collapse" data-target="#navi">
-				<div>-</div>
-				<div>-</div>
-				<!-- <div>-</div> -->
-			</button>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navi">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
 			<div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="navi">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+						<a href="#Home" class="nav-link m-2 menu-item nav-active">Home</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item">Mission</a>
+						<a href="#Mission" class="nav-link m-2 menu-item">Mission</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item">Collection</a>
+						<a href="#Collection" class="nav-link m-2 menu-item">Collection</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item">Gallery</a>
+						<a href="#Gallery" class="nav-link m-2 menu-item">Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item">Customers</a>
+						<a href="#Customers" class="nav-link m-2 menu-item">Customers</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item">Pricing</a>
+						<a href="#Pricing" class="nav-link m-2 menu-item">Pricing</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link m-2 menu-item">Contact</a>
+						<a href="#Contact" class="nav-link m-2 menu-item">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -69,7 +67,7 @@
 
 
 
-	<div class="two p-5" style="background-color: #151f20;">
+	<div id="Mission" class="two p-5" style="background-color: #151f20;">
 		<div class="Mission container-fluid row my-5 text-center">
 			<div class="text-white col mx-auto">
 				<p style="font-size: 35pt; font-weight: normal;">Our Mission</p>
@@ -108,7 +106,8 @@
 		</div>
 
 	</div>
-	<section class="bg-secondary">
+
+	<section id="Collection" class="bg-secondary">
 		<div class="container-fluid">
 
 			<div class="text-center text-white">
@@ -181,7 +180,7 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="Gallery">
 		<div class="container-fluid">
 			<div class="text-center text-secondary pt-5">
 				<h4 class="display-3">Gallery</h4>
@@ -220,7 +219,7 @@
 		</div>
 	</section>
 
-	<section class="bg-dark mt-5">
+	<section id="Customers" class="bg-dark mt-5">
 		<div class="container-fluid">
 
 			<div class="text-uppercase text-white text-center p-5">
@@ -318,7 +317,8 @@
 
 		</div>
 	</section>
-	<section class="bg-light text-center p-5">
+
+	<section id="Pricing" class="bg-light text-center py-5">
 		<div class="container-fluid">
 
 			<div class="text-center text-muted">
@@ -332,8 +332,8 @@
 				<div class="col-lg-4">
 					<div class="card mx-auto card-1 py-4">
 						<div class="card-body">
-							<h3 class="display-5 text-uppercase">Monthly Membership</h3>
-							<h1><i class="fa fa-dollar-sign"></i>19</h1>
+							<h3 class="display-5 text-uppercase text-danger">Monthly Membership</h3>
+							<h1 style="color: #70aed2;">&#36 19</h1>
 							<ul class="list-unstyled">
 								<li class="font-weight-bold py-3 card-list-item">Photoshop</li>
 								<li class="font-weight-bold py-3 card-list-item">After Effects</li>
@@ -348,8 +348,8 @@
 				<div class="col-lg-4">
 					<div class="card mx-auto card-2 py-4 my-4">
 						<div class="card-body">
-							<h3 class="display-5 text-uppercase">Unlimited Access</h3>
-							<h1><i class="fa fa-dollar-sign"></i>499</h1>
+							<h3 class="display-5 text-uppercase text-danger">Unlimited Access</h3>
+							<h1 style="color: #70aed2;">&#36 499</h1>
 							<ul class="list-unstyled">
 								<li class="font-weight-bold py-3 card-list-item">Photoshop</li>
 								<li class="font-weight-bold py-3 card-list-item">After Effects</li>
@@ -365,8 +365,8 @@
 				<div class="col-lg-4">
 					<div class="card mx-auto card-3 py-4 my-4">
 						<div class="card-body">
-							<h3 class="display-5 text-uppercase">Annual Membership</h3>
-							<h1><i class="fas fa-dollar-sign"></i>199</h1>
+							<h3 class="display-5 text-uppercase text-danger">Annual Membership</h3>
+							<h1 style="color: #70aed2;">&#36 199</h1>
 							<ul class="list-unstyled">
 								<li class="font-weight-bold py-3 card-list-item">Photoshop</li>
 								<li class="font-weight-bold py-3 card-list-item">After Effects</li>
@@ -387,7 +387,7 @@
 	</section>
 
 
-	<section class="p-5" id="form">
+	<section id="Contact" class="py-5" id="form">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 mx-auto">
@@ -430,14 +430,14 @@
 	<footer class="bg-dark py-3">
 		<div class="container-fluid">
 
-			<div class="row text-white mx-4 mb-4">
+			<div class="row text-white mb-4">
 
-				<div class="col-sm-6 col-lg-4">
+				<div class="col-12 col-lg-4">
 					<h5 class="my-2 pt-3">About Us</h5>
 					<p class="my-2 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nobis dicta molestiae id laboriosam natus repudiandae, ducimus illum veritatis perspiciatis possimus, at facere debitis accusantium?</p>
 				</div>
 
-				<div class="col-sm-6 col-lg-2">
+				<div class="col-6 col-lg-2">
 					<h5 class="my-2 pt-3">Visit Us</h5>
 					<ul class="my-2 list-unstyled">
 						<li><a href="#" class="footer-link">Home</a></li>
@@ -450,7 +450,7 @@
 					</ul>
 				</div>
 
-				<div class="col-sm-6 col-lg-2">
+				<div class="col-6 col-lg-2">
 					<h5 class="my-2 pt-3">Need Help?</h5>
 					<ul class="my-2 list-unstyled">
 						<li class="text-uppercase"><a href="#" class="footer-link">customer service</a></li>
@@ -460,7 +460,7 @@
 					</ul>
 				</div>
 
-				<div class="col-sm-6 col-lg-4">
+				<div class="col-12 col-lg-4">
 					<h5 class="my-2 pt-3">Stay Connected</h5>
 					<h6 class="my-2 small justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusamus dolores iste praesentium assumenda est quia accusantium corrupti ipsam inventore.</h6>
 					<form class="my-3">
