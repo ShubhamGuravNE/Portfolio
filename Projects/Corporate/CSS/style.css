@@ -235,13 +235,11 @@
 
 @media only screen and (min-width: 786px)
 {	
-/*	*{
+	*{
 		margin: 0px auto;
-		padding: 0px;
-		width: 96%;
-	}*/
-	.pg{
+		padding:0px;
 	}
+	
 	.topimg{
 		padding: 20% 0;
 	}
@@ -261,23 +259,24 @@
 	}
 	.ten{
 		display: inline-block;
-		width: 37.8%;
+		/*width: 37.8%;*/
 		padding: 6%;
 		vertical-align: top;
 	}
 	.two{
-		display: inline-block;
-		width: 40%;
+		/*display: inline-block;
+		width: 40%;*/
+		display: none;
 	}
 	.one7, .one8, .one9{
 		text-align: left;
 	}
 	.five1{
-		font-size: 10pt;
+		font-size: 12pt;
 		font-family: 'Gelasio', serif;
 		font-weight: bolder;
 		color: #ff6d6d;
-		padding-top: 18%;
+		/*padding-top: 18%;*/
 	}
 	.five2{
 		font-size: 28pt;
@@ -396,11 +395,42 @@
 		padding: 0;
 	}
 	.im{
-		width: 11%;
+		width: 15%;
 	}
-
-
-
-
+	
 
 }
+
+@media only screen and (min-width: 1250px)
+{	
+	.pg{
+		max-width: 1200px;
+		background:#ffffff;
+	}
+	.ten{
+		display: inline-block;
+		width: 37.8%;
+		padding: 6%;
+		vertical-align: top;
+	}
+	.five1{
+		font-size: 12pt;
+		font-family: 'Gelasio', serif;
+		font-weight: bolder;
+		color: #ff6d6d;
+		padding-top: 18%;
+	}
+	.two{
+		display: inline-block;
+		width: 40%;
+	}
+
+	.two-trangular-img{
+		height: 642px;
+	}
+	.im{
+		width: 12%;
+	}
+}
+
+

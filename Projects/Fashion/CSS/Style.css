@@ -252,15 +252,47 @@ form input {
   position: relative;
 } */
 /* ===**Footer End**=== */
-/*@media (min-width: 321px) and (max-width: 720px)
-{
+
+
+
+/*==========================*/
+/*-------Responsive-------*/
+/*==========================*/
+
+@media (min-width: 359px) and (max-width: 720px)
+{ 
+  .banner1{
+    display: none;
+  }
+  .banner2{
+    background:  url(../Images/mobile-hero-img2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .mobile-view{
+    content: '';
+    height: 100vh;
+    width: auto;
+  }
   .big{
-    top: 20px !important;
-    font-size: 80px !important;
+    /*top: 20px !important;
+    font-size: 80px !important;*/
+    display: none;
+  }
+  .background1{
+    background:  url(../Images/mobile-bg1.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .overlay{
+    display: none;
+  }
+  .bg1-position{
+    display: none;
   }
 
 
-}*/
+}
 @media (min-width: 1081px) and (max-width: 1320px) {
   .h-img-bg-1 {
     background-size: 236px;
