@@ -139,7 +139,7 @@
 /* ==========**Background Color**========== */
 .bg-color1 {
   opacity: .9;
-  background: #ffc107 !important;
+  background: #ffc107;
   position: relative;
 }
 
@@ -149,8 +149,8 @@
 }
 
 .bg-color3 {
-  background: #f84258 !important;
-  #ff7c98 position: relative;
+  background: #f84258; #ff7c98 
+  position: relative;
 }
 
 .bg-color4 {

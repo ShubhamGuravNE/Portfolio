@@ -259,7 +259,7 @@ form input {
 /*-------Responsive-------*/
 /*==========================*/
 
-@media (min-width: 359px) and (max-width: 720px)
+@media (min-width: 359px) and (max-width: 620px)
 { 
   .banner1{
     display: none;
@@ -279,6 +279,9 @@ form input {
     font-size: 80px !important;*/
     display: none;
   }
+  .head-padding-top{
+        padding-top: 2rem;
+  }
   .background1{
     background:  url(../Images/mobile-bg1.jpg) no-repeat;
     background-size: contain;
@@ -293,6 +296,103 @@ form input {
 
 
 }
+
+@media (min-width: 621px) and (max-width: 860px) {
+  
+  .banner1{
+    display: none;
+  }
+  .banner2{
+    background:  url(../Images/mobile-hero-img2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .mobile-view{
+    content: '';
+    height: 100vh;
+    width: auto;
+  }
+
+  .big {
+    top: 30px !important;
+    font-size: 100px !important;
+  }
+  
+  .background1{
+    background:  url(../Images/mobile-bg1.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .overlay{
+    display: none;
+  }
+  .bg1-position{
+    display: none;
+  }
+
+
+  .bg-color1{
+    /*display: none !important;*/
+    /*visibility: hidden !important;*/
+    background-color: none !important;
+  }
+  .bg-mobile{
+    background: url(../Images/mobile-bg-color1.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+  }
+  .mobile-text-hidden{
+    display: none;
+  }
+  .mobile-img1-hidden{
+    visibility: hidden;
+  }
+
+
+  .bg-color3{
+    background-color: none !important;
+  }
+  .mobile-view-sec8-hidden{
+    display: none !important;
+  }
+  .mobile-sec8-bg{
+    background: url(../Images/mobile-sec8-bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+}
+
+
+@media (min-width: 861px) and (max-width: 1080px) {
+  .h-img-bg-1 {
+    background-size: 200px;
+    padding-bottom: 150px;
+  }
+
+  .h-img-1 {
+    padding-top: 0px;
+  }
+
+  .h-img-bg-2 {
+    background-size: 230px;
+  }
+
+  .h-img-2 {
+    padding-top: 150px;
+  }
+
+  .h-img-bg-3 {
+    background-size: 200px;
+    padding-bottom: 150px;
+  }
+
+  .h-img-3 {
+    padding-top: 0px;
+  }
+}
+
 @media (min-width: 1081px) and (max-width: 1320px) {
   .h-img-bg-1 {
     background-size: 236px;
@@ -321,33 +421,6 @@ form input {
   }
 }
 
-@media (min-width: 841px) and (max-width: 1080px) {
-  .h-img-bg-1 {
-    background-size: 200px;
-    padding-bottom: 150px;
-  }
-
-  .h-img-1 {
-    padding-top: 0px;
-  }
-
-  .h-img-bg-2 {
-    background-size: 230px;
-  }
-
-  .h-img-2 {
-    padding-top: 150px;
-  }
-
-  .h-img-bg-3 {
-    background-size: 200px;
-    padding-bottom: 150px;
-  }
-
-  .h-img-3 {
-    padding-top: 0px;
-  }
-}
 
 @media (min-width: 721px) and (max-width: 1024px) {
   .big {
