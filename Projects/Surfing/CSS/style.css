@@ -154,7 +154,7 @@ a:hover {
 }
 
 .img1 {
-  width: 65%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
 }
@@ -163,7 +163,7 @@ a:hover {
   display: inline-block;
   width: 33%;
   vertical-align: top;
-  padding-top: 80%;
+  padding-top: 60%;
 }
 
 .r1 {
@@ -239,7 +239,7 @@ a:hover {
   padding: 20%;
   background: url(../Images/surfingbackground-new.png) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .joinhead {
@@ -304,7 +304,7 @@ footer {
 }
 
 /*Dekstop view (if more than)768px*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1181px) {
   * {
     margin: 0px auto;
     text-align: center;
@@ -379,7 +379,7 @@ footer {
 
   .coloum {
     display: inline-block;
-    width: 32%;
+    width: 33%;
     padding-top: 80%;
   }
 
@@ -455,4 +455,39 @@ footer {
   .section-4 .remo {
     text-align: center;
   }
+}
+
+
+/*Dekstop view (if more than)768px*/
+@media (min-width: 520px) and (max-width: 767px) {
+  .img1 {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .coloum {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-top: 42%;
+  }
+}
+
+
+/*Dekstop view (if more than)768px*/
+@media (min-width: 769px) and (max-width: 1180px) {
+  .img1 {
+    width: 52%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .coloum {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 25%;
+  }  
+
 }

@@ -356,9 +356,24 @@ form input {
     display: none !important;
   }
   .mobile-sec8-bg{
-    background: url(../Images/mobile-sec8-bg.jpg) no-repeat !important;
+    background: url(../Images/mobile-sec8-bg2.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+  }
+  ..mobile-view{
+    content: '';
+    height: 100vh;
+    width: auto;
+  }
+  ..mobile-view{
+    content: '';
+    height: 100vh;
+    width: auto;
+  }
+  .mobile-view-sec8{
+    content: '';
+    height: 50vh;
+    width: auto;
   }
 
   
