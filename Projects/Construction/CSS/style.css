@@ -212,43 +212,6 @@ body {
 
 /* ----====Section3 End====---- */
 /* ----====Section4====---- */
-/*--==Glowing Head==--*/
-@keyframes anim-glow {
-  0% {
-    /*box-shadow: 0 0 rgba(97, 239, 97, 1);*/
-    /*text-shadow: 0 0 10px rgba(255,255,255,.8)*/
-    /*box-shadow: 0 0 15px #d35400;*/
-    text-shadow: 0 0 10px rgba(206, 149, 60, .6),
-      0 0 20px rgba(206, 149, 60, .6),
-      0 0 8px rgba(206, 149, 60, .7),
-      0 0 4px rgba(255, 206, 48, .7),
-      0 0 6px rgba(255, 206, 48, .7),
-      0 0 8px rgba(66, 220, 219, .8),
-      0 0 10px rgba(66, 220, 219, .8),
-      0 0 14px rgba(255, 206, 48, .8),
-      0 0 20px rgba(206, 149, 60, .8);
-  }
-
-  100% {
-    /*box-shadow: 0 0 10px 8px transparent;*/
-    /*text-shadow: 0 0 2px rgba(255,255,255,.8),;*/
-    /*border-width: 2px;*/
-    text-shadow: 0 0 2px rgba(206, 149, 60, .7),
-      0 0 8px rgba(206, 149, 60, .6),
-      0 0 1px rgba(255, 206, 48, .5),
-      0 0 2px rgba(255, 206, 48, .5),
-      0 0 3px rgba(66, 220, 219, .7),
-      0 0 4px rgba(66, 220, 219, .7),
-      0 0 5px rgba(255, 206, 48, .8),
-      0 0 8px rgba(206, 149, 60, .8);
-  }
-}
-
-.glow-head {
-  animation: anim-glow 1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-/*--==Glowing Head End==--*/
 /*==Slider Button==*/
 .page-item.active .page-link {
   background-color: #d2aa4c !important;
