@@ -391,19 +391,17 @@ footer {
 
   .topsurf {
     display: inline-block;
-    /*width: 20%;*/
     vertical-align: middle;
   }
 
   .topnav {
-    /*width: 60%;*/
     display: inline-block;
     padding: 0px;
   }
 
   .navbar {
     display: inline-block;
-    width: 14%;
+/*     width: 14%; */
     padding: 0px;
   }
 
