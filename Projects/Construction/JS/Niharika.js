@@ -133,4 +133,8 @@ $(document).ready(function(){
 
   });
 });
+
+$('.img-filter').click(function() {
+  $(this).addClass('active-item').siblings().removeClass('active-item');
+});
 // Image Filter

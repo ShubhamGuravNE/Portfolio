@@ -259,13 +259,13 @@ form input {
 /*-------Responsive-------*/
 /*==========================*/
 
-@media (min-width: 359px) and (max-width: 620px)
+@media (min-width: 320px) and (max-width: 620px)
 { 
   .banner1{
     display: none;
   }
   .banner2{
-    background:  url(../Images/mobile-hero-img2.jpg) no-repeat;
+    background: url(../Images/mobile-hero-img2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }

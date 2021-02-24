@@ -25,7 +25,7 @@ $(document).ready(function() {
     }
   });
 
-  $('.gallery-list-item').click(function() {
+  $('.pics').click(function() {
     var value = $(this).attr('data-filter');
     if(value === 'all') {
       $('.filter').show(300);
@@ -35,7 +35,7 @@ $(document).ready(function() {
     }
   });
 
-  $('.gallery-list-item').click(function() {
+  $('.pics').click(function() {
     $(this).addClass('active-item').siblings().removeClass('active-item');
   });
 
