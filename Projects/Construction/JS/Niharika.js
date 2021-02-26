@@ -88,15 +88,15 @@ $(window).scroll(function() {
 });
 
 // ----====Circular Progressbar====----
-// $(window).scroll(function() {
-//   let position = $(this).scrollTop();
-//     if(position >= 3400) {
-//       $('path').addClass('circle');
-//     }
-//     else {
-//       $('path').removeClass('circle');
-//     }
-// });
+$(window).scroll(function() {
+  let position = $(this).scrollTop();
+    if(position >= 3400) {
+      $('.progress').addClass('circle');
+    }
+    else {
+      $('.progress').removeClass('circle');
+    }
+});
 
 // ----====Number CountTo====----
 $(window).scroll(function() {
