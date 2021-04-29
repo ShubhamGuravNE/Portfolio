@@ -178,7 +178,7 @@
   position: relative;
 }
 
-.shopping-card-body {
+.shopping-card-body{
   background-color: #fff;
   margin-bottom: 30px;
 }
@@ -360,16 +360,12 @@ form input {
     background-position: center;
     background-size: cover;
   }
-  ..mobile-view{
+  .mobile-view{
     content: '';
     height: 100vh;
     width: auto;
   }
-  ..mobile-view{
-    content: '';
-    height: 100vh;
-    width: auto;
-  }
+
   .mobile-view-sec8{
     content: '';
     height: 50vh;
